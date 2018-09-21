@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "My Notes",
+    "version": "1.0",
+  "description": "do make note when surf internet",
+
+
+    "icons": {
+    "128": "icons/icon128.jpg",
+    "64": "icons/icon64.jpg",
+    "48": "icons/icon48.jpg",
+    "32": "icons/icon32.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.jpg",
+    "default_title": "My notes",
+    "default_popup": "popup/code.html"
+  },
+  "permissions": ["storage"]
+}

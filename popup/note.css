@@ -1,0 +1,45 @@
+#itsAFact {
+    text-align: center;
+    padding: 5px;
+  }
+textarea {
+  background: #72ff00;
+    font-size: 25px;
+	width: 350px;
+	height: 120px;
+    padding: 5px;
+	overflow: auto;
+}
+#cleanPad {
+    cursor: pointer;
+    display: block;
+    margin: 2px auto 0;
+    width: 90px;
+    background: #000000;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+#layOver button {
+    background: #fff;
+    border: 5;
+    padding: 5px 30px;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+#layOver > div {
+    color: #fff;
+    margin-top: 60px;
+}
+#layOver {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+
+.hidden {
+    display: none;
+}
